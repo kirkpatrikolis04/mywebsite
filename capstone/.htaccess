@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(css|fontawesome|images|js)($|/) - [L]
+RewriteRule ^([^/]+)/? index.php?uri=$1 [L,QSA]
