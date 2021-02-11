@@ -14,7 +14,7 @@
 
 	   		<div class="row py-3 px-4" id="dashboard">
 	   			<div class="col-md1-12">
-	   				<h1>DASHBOARD</h1>
+	   				<h1 class="mb-5">DASHBOARD</h1>
 
 	   				<div class="d-flex justify-content-around mt-3 mb-5">
 		   				<div class="card shadow-lg">

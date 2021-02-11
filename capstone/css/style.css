@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif !important;
-	overflow: hidden;
+	overflow-x: hidden;
 	background-color:  #f1f4f7;
 	color: #444;
 }
@@ -37,7 +37,7 @@ img {
 	color: #fff;
 }
 
-.active {
+.activelink {
 	background-color: #333;
 	color: #fff;
 }
@@ -149,4 +149,34 @@ header .navbar-nav {
 #dashboard .card-text {
 	height: 100%;
 	width: 100%;
+}
+
+/*SHOWCASE MAINTENANCE*/
+
+#maintenance {
+	font-size: 13px;
+}
+
+#maintenance #myTab .active {
+	background-color: #333;
+	color: #fff;
+}
+
+#maintenance button {
+	outline: none;
+
+}
+
+#maintenance #myTabContent .active {
+	background-color: inherit;
+	color: #333;
+}
+
+
+#maintenance table th {
+	border-bottom-color: inherit;
+}
+
+#books table {
+	font-size: 12px;
 }

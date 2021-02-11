@@ -101,7 +101,7 @@
 
           <?php foreach($pages as $page) : ?>
            <li class="nav-item">
-            <a href="<?= $page['url']; ?>" class="py-3 px-3 d-block text-decoration-none <?= $_SERVER['REQUEST_URI'] == $page['url'] ? active : ''?>">
+            <a href="<?= $page['url']; ?>" class="py-3 px-3 d-block text-decoration-none <?= $_SERVER['REQUEST_URI'] == $page['url'] ? activelink : ''?>">
                <i class="<?= $page['icon']; ?>"></i>
                <span><?= strtoupper($page['name']); ?></span>
             </a>
